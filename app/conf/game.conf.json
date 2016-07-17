@@ -1,0 +1,21 @@
+{
+  "game": {
+    "width": 5000,
+    "height": 5000,
+    "fps": 60
+  },
+  "snake": {
+    "radius": 12,
+    "speed": 1,
+    "speedAngle": 2
+  },
+  "food": {
+    "radius": 10,
+    "numberFood": 100
+  },
+  "KEY": {
+    "LEFT": 37,
+    "RIGHT": 39
+  }
+
+}
