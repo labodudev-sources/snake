@@ -5,6 +5,13 @@ http://labodudev.fr
 
 "use strict"
 
-define([], function () {
-  alert('loop');
+define(['./load-conf.class', './display.class'], function (conf, display) {
+  function renderLoop(timestamp) {
+    requestAnimationFrame(renderLoop);
+
+    // La boucle principale
+    display.clearContext();
+  }
+
+  requestAnimationFrame(renderLoop);
 });
