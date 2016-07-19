@@ -2,7 +2,8 @@
   "game": {
     "width": 5000,
     "height": 5000,
-    "fps": 60
+    "fps": 60,
+    "backgroundColor": "#f2fbff"
   },
   "snake": {
     "radius": 12,
